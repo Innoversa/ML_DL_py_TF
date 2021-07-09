@@ -285,7 +285,7 @@ print(cm3)
 accuracy3=(cm3[0,0]+cm3[1,1])/(cm3[0,0]+cm3[0,1]+cm3[1,0]+cm3[1,1])
 print(accuracy3)
 
-#3.12 Individual impact of the variables 
+#3.13 Individual impact of the variables 
 
 #Drop estimated_income and high_talktime_flag 
 import statsmodels.api as sm
